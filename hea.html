@@ -4,51 +4,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Jõul</title>
+    <title>Jõululeht</title>
     <script src="java.js" rel="script"></script>
     <link href="kujundus.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <div class="tab">
-            <button class="tablinks" onclick="tabid(event, 'Esimene')">Esileht</button>
-            <button class="tablinks" onclick="tabid(event, 'Fakt')">Fun Fact</button>
-            <button class="tablinks" onclick="tabid(event, 'Teine')">Mitte Nii Fun Fact</button>
-            <button class="tablinks" onclick="tabid(event, 'Miski')">Click Here For a Free iPhone 4</button>
-            <button class="tablinks" onclick="tabid(event, 'petitsioon')">Sellel tabil on saladus</button>
+            <button class="tablinks" onclick="tabid(event, 'Esimene')">Countdown</button>
+            <button class="tablinks" onclick="tabid(event, 'Teine')">Kas SINA oled heade laste nimekirjas?</button>
+            <button class="tablinks" onclick="tabid(event, 'Kolmas')">Minu lemmikud jõululaulud</button>
         </div>
         
         
-
-        <div id="Fakt" class="tabcontent">
-            <p>Selle lehekülje loomisel on kasutatud Pacmani värviskeemi.</p>
+        <div id="Esimene" class="tabcontent">
+            
         </div>
         
         <div id="Teine" class="tabcontent">
-            <p>Mulle tegelikult ei meeldi Pacman nii väga.</p> 
-            <p>Ma ei oska seda mängu väga hästi. :/</p> 
-        </div>
-        
-        <div id="Miski" class="tabcontent">
-            o
-            </p>
+                <p id="randomItem"></p>
         </div>
 
-        <div id="petitsioon" class="salajanetabcontent">
-                <p>Siin on linki petitsioonile > https://bit.ly/2wqwHLJ</p>
-                <p>
-                    <pre>
-                        ╦ ╦╔═╗╔═╗╔╦╗
-                        ╚╦╝║╣ ║╣  ║ 
-                         ╩ ╚═╝╚═╝ ╩ 
-                    </pre>  
-                </p>
-        </div>
+        <div id="Kolmas" class="tabcontent">
+            <a href="https://www.youtube.com/watch?v=yXQViqx6GMY">All I Want For Christmas Is You</a><br>
+            <a href="https://www.youtube.com/watch?v=yXQViqx6GMY">All I Want For Christmas Is You</a><br>
+            <a href="https://www.youtube.com/watch?v=yXQViqx6GMY">All I Want For Christmas Is You</a><br>
+            <a href="https://www.youtube.com/watch?v=yXQViqx6GMY">All I Want For Christmas Is You</a><br>
+         </div>
+        
+
         <body>
             <div class="sisu">
                 <div class="sisu_tekst">
                   <h1>Aega jõuludeni</h1>
-                  <p id="demo"></p>
+                  <p id="countdown"></p>
                 </div>
             </div>
 </html>
